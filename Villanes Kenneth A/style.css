@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather&display=swap');
+
+
+*{
+	font-family: 'Merriweather', cursive;
+        background-color: #3DD6D0;
+
+}
+
+main {
+	display: grid;
+	grid-template-columns: 30% 30% 30%;
+	grid-template-rows: 50% 50%; 
+	
+}
+
+.box1{
+    /*flex: 1;
+    order: 1;*/
+    width: 20%;
+}
+
+.box2{
+    /*flex: 1;
+    order: 3;*/
+    width: 30%
+}
+
+.box3{
+   /* flex: 3;
+    order: 2;*/
+    width: 40%
+}
+
+#Featured-Image {
+	display: grid;
+	grid-template-columns: 100%
+	grid-row-gap: 40px;
+}
+
+.row1 {
+	text-align:center;
+}
+
+
+h1{
+
+	color: #000000;
+	font-size: 90px;
+}
+
+.imageClass {
+
+	width:  300px;
+	height: 300px;
+	border-radius: 50%; 
+}
+
+.imageClass:hover{
+opacity: 0.5;
+filter: alpha(opacity=50);
+transition: 0.5s;
+
+header * {
+	display: inline;
+	vertical-align: top;
+}
+
+nav p a{
+	text-decoration: none;
+	color: black;
+	padding-right: 20px;
+    border: blue 0.5px solid;
+    margin: 5px;
+}
+
+nav p a:hover{
+
+	border:#2978a0 0.5px solid;
+}
+
+nav{
+	float:left;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
